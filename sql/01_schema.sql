@@ -1,0 +1,26 @@
+-- Retail Sales Schema
+CREATE TABLE retail_sales (
+    Transaction_ID VARCHAR(50) PRIMARY KEY,
+    Transaction_Date TIMESTAMP,
+    Store_ID VARCHAR(50),
+    Store_Name VARCHAR(100),
+    Region VARCHAR(50),
+    State VARCHAR(50),
+    City VARCHAR(50),
+    Customer_ID VARCHAR(50),
+    Customer_Type VARCHAR(50),
+    Product_ID VARCHAR(50),
+    Product_Name VARCHAR(100),
+    Category VARCHAR(50),
+    Sub_Category VARCHAR(50),
+    Unit_Cost DECIMAL(10,2),
+    Unit_Price DECIMAL(10,2),
+    Quantity INT,
+    Discount DECIMAL(10,2),
+    Revenue DECIMAL(10,2),
+    Cost DECIMAL(10,2),
+    Profit DECIMAL(10,2),
+    Payment_Mode VARCHAR(50),
+    Promotion VARCHAR(50),
+    Return_Flag VARCHAR(1)
+);
